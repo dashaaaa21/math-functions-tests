@@ -9,7 +9,7 @@ function assertEqual(actual, expected, message) {
     }
 }
 
-assertEqual(add(2, 3), 6, 'Сума 2 + 3 = 6');
+assertEqual(add(2, 3), 5, 'Сума 2 + 3 = 5');
 assertEqual(subtract(10, 4), 6, 'Різниця 10 - 4 = 6');
 
 console.log(" Усі тести пройдено успішно!");
